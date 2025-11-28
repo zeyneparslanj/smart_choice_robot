@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       // 👇 İŞTE EKLEMEN GEREKEN TEK KISIM BURASI 👇
-      base: '/REPO-ADIN/',  // <-- Buraya GitHub Repo ismini yaz (Başında ve sonunda / olsun)
+      base: "/smart_choice_robot/", // <-- Buraya GitHub Repo ismini yaz (Başında ve sonunda / olsun)
       // 👆 ------------------------------------- 👆
 
       server: {
