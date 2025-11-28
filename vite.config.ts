@@ -5,8 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    // BURASI ÇOK ÖNEMLİ: Repository adını buraya ekliyoruz
-    // Başında ve sonunda / işareti olduğundan emin ol.
+    // Sadece bu satır her şeyi çözecek:
     base: "/smart_choice_robot/", 
     
     server: {
