@@ -1,0 +1,5 @@
+{
+  "name": "Akıllı Tercih Robotu",
+  "description": "Yapay zeka destekli üniversite ve kariyer tercih asistanı. İlgi alanlarınıza ve puanınıza göre en uygun bölümleri listeler.",
+  "requestFramePermissions": []
+}
