@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    // Sadece bu satır her şeyi çözecek:
+    // KİLİT NOKTA BURASI:
     base: "/smart_choice_robot/", 
     
     server: {
